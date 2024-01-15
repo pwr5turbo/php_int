@@ -1,0 +1,99 @@
+body{
+    color: white;
+    background-color: purple;
+    margin: 0px;
+    margin-top: 18vh;
+}
+
+#header{
+    background-color: rgb(65, 6, 65);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+h1{
+    margin: 0px
+}
+
+#toevoegen, #aanpassenheader , #toevoegheader ,#btn:hover, #aanpassen_btn:hover{
+    cursor: pointer;
+}
+
+#toevoegen_output{
+    background-image: url(https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg);
+    background-size: cover;
+    height: 40vh;
+    width: 40%;
+    border: white 3px solid;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    position: fixed;
+    margin-left: 30%;
+    top: -41vh;
+    transition: 0.6s;
+}
+
+#table{
+    border: solid white 2px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#sqlTable{
+    width: 100%;
+    text-align: center;
+}
+
+#toevoegTable, #aanpasTable{
+    margin-top: 40px;
+}
+
+#btn{
+    margin-top: 15px;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#btn:active{
+    background-color: brown;
+}
+
+a{
+    color: white;
+    text-decoration:none
+}
+
+#aanpassen_output{
+    background-image: url(https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg);
+    background-size: cover;
+    height: 40vh;
+    width: 40%;
+    border: white 3px solid;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 30vh;
+    margin-left: 30%;
+}
+
+.expired{
+    color: red;
+}
