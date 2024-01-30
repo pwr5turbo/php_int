@@ -1,0 +1,11 @@
+#cijfers{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    background-color: purple;
+}
+
+table{
+    width: 100%; 
+    text-align: center;
+}

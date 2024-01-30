@@ -1,0 +1,38 @@
+
+#toetsen{
+    background-color: purple;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    display: none;
+}
+
+#leerlingen{
+    background-color: purple;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    display: none;
+}
+
+table{
+    width: 100%; 
+    text-align: center;
+}
+
+#toevoegToets{
+    background-color: purple;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    display: none;
+}
+
+#toevoegLeerling{
+    background-color: purple;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    display: none;
+}
+
